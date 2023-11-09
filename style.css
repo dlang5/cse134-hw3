@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 10vh;
+  height: 11vh;
 }
 
 p, aside, table {
@@ -33,7 +33,7 @@ h2, h3 {
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   #resp-header {
-    height: 10vh;
+    height: 11vh;
   }
   video, img {
     max-width: 22dvh;
