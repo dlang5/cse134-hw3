@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Header Content</title>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab&display=swap');
+
+      header {
+         text-align: center;
+         overflow: hidden;
+      }
+
+      h1 {
+         border: 1px solid #000;
+         border-radius: 5px; /* Round the corners with border-radius */
+         font-family: 'Roboto Slab', Arial, sans-serif;
+         margin-top: 5px; /* Adjust the top margin as needed */
+         font-size: 20px;
+         padding: 1px;
+      }
+
+      picture {
+         display: inline-block; /* Ensure the image doesn't exceed the container */
+         width: 100%; /* Use the image's original width */
+         height: 80px; /* Allow the image to maintain its original height */
+         object-fit: cover; /* Crop to fit horizontally */
+      }
+
+      img {
+         display: inline-block; /* Ensure the image doesn't exceed the container */
+         width: 100%; /* Use the image's original width */
+         height: 80px; /* Allow the image to maintain its original height */
+         object-fit: cover; /* Crop to fit horizontally */
+      }
+
+     </style>
+   </head>
+   <body>
+      <header>
+         <picture>
+            <source media="(min-width:720px)" alt="UCSD Geisel Page Header" srcset="geisel-header.jpg">
+            <img src="geisel-small.jpg" alt="UCSD Geisel Page Header Small">
+         </picture>
+         <h1><b><span>&nbsp;Dennis Lang's Portfolio Site&nbsp;</span></b></h1>
+      </header>
+   </body>
+</html>

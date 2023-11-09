@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Footer Content</title>
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab&display=swap');
+
+         @keyframes rotateAnimation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+      footer {
+         text-align: center;
+         overflow: hidden;
+      }
+
+      .spin {
+      animation: rotateAnimation 1s infinite;
+    }
+
+    img {
+            width: 0.75em;
+            height: 0.75em;
+            vertical-align: middle;
+        }
+
+     </style>
+   </head>
+   <body>
+      <footer style="font-size: 12px; border-radius: 5px;">
+         <p>
+            <img src="smiley.png" alt="Animated Image" class="spin">&nbsp;Page designed by <strong>Dennis Lang</strong>&nbsp;<img src="smiley.png" alt="Animated Image" class="spin"><br>
+         </p>
+         <form>
+            <fieldset style="border-radius: 5px;">
+               <legend>Mailing List Signup</legend>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+               <br>
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+               <br>
+               <label for="response-type">Response type:</label>
+               <select id="response-type">
+                  <optgroup label="Digital">
+                     <option value="Email">Email</option>
+                     <option value="Slack">Slack</option>
+                  </optgroup>
+                  <optgroup label="Analog">
+                     <option value="In-Person">In-Person</option>
+                     <option value="Phone Call">Phone Call</option>
+                  </optgroup>
+               </select>
+               <button type="submit">Submit</button>
+            </fieldset>
+         </form>
+      </footer>
+   </body>
+</html>
