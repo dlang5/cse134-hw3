@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab&display=swap');
 
 :root {
-  --primary-color: color(display-p3 0.2 0.0 0.9);
+  --primary-color: color(display-p3 0.0 0.0 0.1);
   --secondary-color: #609A75;
 }
 
